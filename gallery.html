@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+  <html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <link rel="stylesheet" href="style_gallery.css">
+    <meta charset="UTF-8">
+   
+   <title>Gallery</title>
+
+
+</head>
+<body>
+
+
+<!-- Navigation Bar -->
+  <nav>
+  <div class="nav-wrapper">
+     <a href="#" class="brand-logo"><h4 style="font-size: 50px">Thelensational.com</h4></a>
+
+     <ul class="right hide-on-med-and-down">
+       <div class="menu">
+
+
+       <li><a href="home.html"  >Home</a></li>
+       <li><a  href="gallery.html">Gallery</a></li>
+       <li><a href="films.html">Films</a></li>
+       <li><a href="#">About us</a></li>
+       <li><a href="#">Contact us</a></li>
+     </div>
+
+     </ul>
+  </div>
+</nav>
+
+
+
+<!-- Image Slide -->
+<div class="imageslide">
+<img src="images/downloadimg4.jpg" style="width: 100%" height="700vh">
+<!-- line -->
+<div class="hp">
+
+</div>
+</div>
+
+
+<!-- OPtions -->
+<div class="heading">
+  
+<h1>The Lensational</h1>
+
+<button class="button button1"><h6>Candid</h6></button>
+<button class="button button1"><h6>Wedding</h6></button>
+<button class="button button1"><h6>Model</h6></button>
+<button class="button button1"><h6>Child</h6></button>
+<button class="button button1"><h6>Clothing</h6></button>
+<button class="button button1"><h6>Fitness</h6></button>
+
+<h2 style="margin-top: 50px;">Model Shoots</h2>
+
+</div>
+
+
+
+  <!-- Photo Grid -->
+<div class="row"> 
+  <div class="column">
+    <a href="">
+    <img src="images/lensation6.png" style="width:100%">
+    <img src="images/lensation7.png" style="width:100%">
+    <img src="images/lensation8.png" style="width:100%">
+    <img  src="images/lensation9.png" style="width:100%"></a>
+    
+  </div>
+  <div class="column">
+    <img src="images/lensation13.png" style="width:100%">
+    <img src="images/lensation14.png" style="width:100%">
+    <img src="images/lensation15.png" style="width:100%">
+    <img src="images/lensation16.png" style="width:100%">
+    <img src="images/lensation17.png" style="width:100%">
+    <img src="images/lensation13.png" style="width:100%">
+  </div>  
+  <div class="column">
+    <img src="images/lensation6.png" style="width:100%">
+    <img src="images/lensation7.png" style="width:100%">
+    <img src="images/lensation8.png" style="width:100%">
+    <img src="images/lensation9.png" style="width:100%">
+
+   
+  </div>
+ 
+</div>
+
+
+
+
+
+
+<!-------------------------------------------------------------------------------------------------->
+<!--script coding-->
+<!--Navbar-->
+  <script>
+
+     $(document).ready(function(){
+
+          $(window).scroll(function(){
+
+            if($(window).scrollTop()>100){
+              $('nav').removeClass('black');
+
+            }else{
+            $('nav').addClass('black');
+            }
+
+          });
+
+     });
+
+  </script>
+
+
+  <!-------------------------------------------------------------------------------------------------->
+<!-- Footer -->
+<footer>
+  <h3>&#169;Lensation 2020,Chennai,India</h3>
+
+
+
+</footer>
+
+
+
+</body>
+</html>
